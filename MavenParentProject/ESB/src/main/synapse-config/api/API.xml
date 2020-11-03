@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <api context="/api" name="API" xmlns="http://ws.apache.org/ns/synapse">
-    <resource methods="GET" uri-template="/health">
+    <resource methods="GET" uri-template="/hello">
         <inSequence>
             <property name="FORCE_SC_ACCEPTED" scope="axis2" type="STRING" value=""/>
             <payloadFactory media-type="json">
